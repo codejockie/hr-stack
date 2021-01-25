@@ -5,10 +5,10 @@
     "scripts": {
         "prestart": "npm install",
         "start": "node app.js",
-        "pretest": "npm install",
         "test": "NODE_ENV=test ./node_modules/.bin/mocha test --exit"
     },
     "devDependencies": {
+        "@microsoft/edge-selenium-tools": "^3.6.1",
         "chai": "^4.1.0",
         "chai-http": "^3.0.0",
         "gulp": "^3.9.1",
